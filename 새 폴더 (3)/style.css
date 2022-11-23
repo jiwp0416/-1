@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100vw;
+    height: 20vh;
+    border-bottom: 1px solid black;
+    text-align: center;
+    padding-top: 40px;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.flex{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    height: 80vh;
+}
+
+.nav{
+    border-right: 1px solid black;
+}
+
+li a{
+    display: block;
+    margin: 80px 0 0 80px;
+}
+
+img{
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+    width: 300px;
+    max-width: 100%;
+    transition: transform .5s ease-in-out;
+}
+
+img:hover{
+    transform: scale(1.2);
+}
+
+.content p{
+    margin-block: 50px;
+    text-align: center;
+}
+
+.notion{
+    padding-top: 200px;
+}
